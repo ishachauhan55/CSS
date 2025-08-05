@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+.head{
+    width: 90%;
+    height: 200px;
+    background-color: #F0F3F2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-name{
+    margin: 50px;
+}
+
+.head-name{
+
+}
+.head-name input{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.box{
+    width: 90%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-drop{
+   padding-left: 700px;
+   gap: 5px;
+}
+
+.box-drop select{
+    height: 50px;
+    width:100px;
+    border-radius: 5px;
+
+}
+
+.box-drop .s1{
+    width:160px;
+}
+
+.product-main{
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+p{
+    color: gray;
+}
+
+.price p{
+    color: black;
+}
+
+.box1{
+    width: 350px;
+    height: 430px;
+    background-color:#FFFFFF;
+    box-shadow: 0 0 20px rgba(113, 139, 155, 0.6);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.b{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.b button{
+    border: none;
+    width: 35px;
+    color: white;
+    font-weight: 600;
+    margin-left:-250%;
+}
+
+.b1 button{
+    background-color: #DB3030;
+}
+
+.b2 button{
+    background-color: #198754;
+}
+
+.product-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.product-box img{
+    width: 190px;
+    height: 190px;
+}
+
+.product-box span{
+    text-decoration: line-through;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add{
+    height: 35px;
+    width: 70px;
+    background-color: #0AAD0A;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.product-des{
+    padding-top: 70px;
+}
+
+.p-name{
+    padding-top: -50px;
+}
+
+.box1 .sale button{
+    background-color: #DB3030;
+     width: 150px; 
+     height: 30px;
+     margin: 0;
+     
+}
+
+.i1{
+    padding-top: 20px;
+}
