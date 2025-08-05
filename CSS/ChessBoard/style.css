@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background: #f4f4f4;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.board {
+  width: 800px ;
+  height: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid black;
+  line-height: 0;
+  background-color: azure;
+}
+
+.board div {
+  width: 100px;
+  height: 100px;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #000;
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 40%;
+    width: 50%;
+    position: relative;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:azure;
+}
+
+h1{
+    font-weight: 600px;
+    text-align: center;
+    margin: 30px;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 85px;
+
+}
+
+.smartwatch{
+    position: relative;
+    left: -10%;
+    height: 370px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(9, 143, 114, 0.6);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+} 
+
+.headphone{
+    position: relative;
+    left: -4%;
+    height: 370px;
+    width: 300px;
+   background-color: white;
+   box-shadow: 0 0 20px rgba(66, 159, 139, 0.7);
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.fitness img{
+    height: 230px;
+    width: 200px;
+}
+
+.fitness{
+    position: relative;
+    left: 2%;
+    height: 370px;
+    width: 300px;
+   background-color: white;
+   box-shadow: 0 0 20px rgba(66, 159, 139, 0.7);
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
