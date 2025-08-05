@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background-color: rgba(177, 183, 184, 0.461);
+    font-size: 30px;
+    text-decoration: solid;
+    word-spacing: 1rcap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+
+}
+#class{
+    color: rgb(3, 4, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#h1 {
+    color: rgb(22, 24, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: var(30px);
+   
+}
+
+#h2{
+    color:rgb(33, 27, 11);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    font-variant: calc();
+    text-decoration: underline;
+}  
+.p2{
+    color: rgb(28, 35, 35);
+    font-weight: 800;
+     text-align: center;
+    
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#s{
+    color: rgba(20, 34, 1, 0.767);
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 500;
+    
+}
+
+#sa{
+    color: rgb(112, 20, 43);
+    font-family: initial;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.p3{
+    color: rgb(53, 80, 25);
+    font-weight: 600;
+    font-style: normal;
+    text-transform: capitalize;
+}
+.op{
+    color: rgb(6, 62, 99);
+    font-weight: 800;
+    font-family: cursive;
+    font-style: normal;
+    text-transform: capitalize;
+}
+#h3{
+    color:rgb(0, 59, 18);
+    font-weight: 100;
+    text-decoration: underline;
+    line-height: 2;
+
+}
+.sk{
+    color: rgb(92, 64, 4);
+    font-weight: 600;
+  text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#ss{ 
+    color: rgb(150, 44, 2);
+    text-decoration: underline;
+    font-weight: 700;
+
+}
+.s5{
+    color: rgb(51, 56, 5);
+    font-weight: 800;
+    text-transform: capitalize;
+    font-style: calc();
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
